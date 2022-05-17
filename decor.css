@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+body {
+      background-color: #23252b;
+  }
+#conteneur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+    margin-top: 170px;
+  }
+.element1{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    background-image: url('assets/partenaire.jpg');
+  }
+.element2{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    margin: 100px;
+    background-image: url("assets/client.jpg");
+}
+.element3{
+    width: 250px;
+    height: 300px;
+    background-color: white;
+    background-image: url("assets/fournisseurs.jpg");
+  } 
+.posi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.place{
+    padding: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px;
+}
